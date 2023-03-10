@@ -1,0 +1,80 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Art {
+    background-color: #fff9;
+    padding: 1em;
+    border-radius: 0.8em;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.Title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.Subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.bod {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: center;
+}
+
+.Subsubtitle {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.Lista {
+    padding-left: 1.5rem;
+    align-items: center;
+}
+
+.Li {
+    font-size: 0.9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.temp {
+    font-size: 1.6rem;
+}
+
+.Btn {
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.1rem 0.1rem 0.3rem;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    filter: brightness(0.97);
+    transform: scale(1.03);
+
+}
